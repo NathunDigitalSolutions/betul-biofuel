@@ -23,14 +23,14 @@ const Navbar = () => {
         { name: "Ethanol", path: "/products/ethenol" },
         { name: "CO2", path: "/products/co2" },
         { name: "DDGS", path: "/products/ddgs" },
-        { name: "Cattle Feed", external: "https://navaahar.in/" },
+        { name: "Cattle Feed", external: "https://navaahar.in" },
       ],
     },
     { name: "Quality", path: "/quality" },
     {
       name: " Our Associates",
       dropdown: [
-        { name: "Navaahar", external: "https://navaahar.in/" },
+        { name: "Navaahar", external: "https://navaahar.in" },
         { name: "Novela", path: "/industries/novela" },
       ],
     },
@@ -39,8 +39,8 @@ const Navbar = () => {
       {
       name: "Login",
       dropdown: [
-        { name: "ERP Login", external: "" },
-        { name: "IT Complaint Helpdesk", path: "" },
+        { name: "ERP Login", external: "https://erp.betulbiofuel.com" },
+        { name: "IT Complaint Helpdesk", external: "https://erp.it.betulbiofuel.com" },
       ],
     },
   ];
