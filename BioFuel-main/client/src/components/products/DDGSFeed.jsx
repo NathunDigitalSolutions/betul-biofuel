@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaSeedling, FaBoxOpen } from 'react-icons/fa';
 import { GiCow } from 'react-icons/gi';
-import ddgsImg from '../../assets/img/img10.jpg'; 
+import ddgsImg from '../../assets/img/img15.jpg'; 
 
 const DDGSPlant = () => {
   return (

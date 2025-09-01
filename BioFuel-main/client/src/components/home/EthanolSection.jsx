@@ -1,6 +1,6 @@
 import React from "react";
 import { ethanolData } from "../../data/ethanolData";
-import img from "../../assets/renewable.jpg";
+import img from "../../assets/img/img14.JPG";
 import { FaLeaf } from "react-icons/fa"; // You can replace this with another icon if preferred
 
 const EthanolSection = () => {
