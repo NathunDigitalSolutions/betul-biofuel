@@ -6,7 +6,7 @@ export const managementData = {
   CEO: {
     name: 'Pradeep Kumar Modi',
     designation: 'Chief Executive Officer',
-    photo: "",
+    photo: img3,
     message: `At Betul Biofuel Pvt. Ltd., our mission is simple—create sustainable solutions that add value to people, industry, and the environment. 
 Through Ethanol, DDGS, CO₂, and Navaahar Cattle Feed, we are committed to driving innovation with responsibility and building a greener, healthier future for all.`
   },

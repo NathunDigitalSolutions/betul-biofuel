@@ -39,7 +39,7 @@ const Navbar = () => {
       {
       name: "Login",
       dropdown: [
-        { name: "ERP L0gin", external: "" },
+        { name: "ERP Login", external: "" },
         { name: "IT Complaint Helpdesk", path: "" },
       ],
     },
