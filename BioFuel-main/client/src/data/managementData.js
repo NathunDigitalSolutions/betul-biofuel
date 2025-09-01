@@ -1,5 +1,6 @@
 import img1 from '../assets/img/vard.png';
 import img2 from '../assets/img/avp.png';
+import img3 from '../assets/img/CEO.jpeg';
 
 export const managementData = {
   CEO: {

@@ -36,6 +36,13 @@ const Navbar = () => {
     },
     { name: "Gallery", path: "/gallery" },
     { name: "Career", path: "/career" },
+      {
+      name: "Login",
+      dropdown: [
+        { name: "ERP L0gin", external: "" },
+        { name: "IT Complaint Helpdesk", path: "" },
+      ],
+    },
   ];
 
   const isActive = (path) => location.pathname === path;
