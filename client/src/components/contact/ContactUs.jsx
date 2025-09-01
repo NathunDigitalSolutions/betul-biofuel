@@ -49,7 +49,9 @@ const ContactSection = () => {
             whileHover={{ scale: 1.05 }}
           >
             <div className="mb-3">{item.icon}</div>
-            <h3 className="font-bold text-xl mb-1 text-primary">{item.title}</h3>
+            <h3 className="font-bold text-xl mb-1 text-primary">
+              {item.title}
+            </h3>
             <p className="text-gray-600">{item.info}</p>
           </motion.div>
         ))}
@@ -84,11 +86,13 @@ const ContactSection = () => {
               />
             </div>
             <div>
-              <label className="text-white block mb-2">Message</label>
-              <textarea
-                className="w-full p-3 border border-white bg-transparent text-white rounded-lg focus:ring-2 focus:ring-secondary"
-                placeholder="Write your message"
-              ></textarea>
+              <div>
+                <label className="text-white block mb-2">Message</label>
+                <textarea
+                  className="w-full p-3 border border-white bg-transparent text-white rounded-lg focus:ring-2 focus:ring-secondary h-32"
+                  placeholder="Write your message"
+                ></textarea>
+              </div>
             </div>
             <button className="bg-secondary text-black px-6 py-3 rounded-lg hover:bg-opacity-90 transition">
               Submit
