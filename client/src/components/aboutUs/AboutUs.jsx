@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import about from "../../assets/img/img10.JPG";
+import about from "../../assets/img/img10.jpg";
 import HeroSection from "../common/HeroSection";
 import aboutData from "../../data/aboutData";
 import VisionMission from "./VisionMission";

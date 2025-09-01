@@ -1,6 +1,6 @@
 import React from "react";
 import { Target, Eye } from "lucide-react"; // Icons
-import img from "../../assets/img/img11.JPG";
+import img from "../../assets/img/img11.jpg";
 import EthanolSection from "../home/EthanolSection";
 import EthanolFeatures from "../home/EthanolFeatures";
 import EnvironmentalBenefits from "../home/EnvironmentalBenefits";

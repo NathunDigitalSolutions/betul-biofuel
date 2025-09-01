@@ -1,4 +1,4 @@
-import image from "../assets/img/img10.JPG";
+import image from "../assets/img/img10.jpg";
 
 export const aboutUsContent = {
     title: "About Us",
