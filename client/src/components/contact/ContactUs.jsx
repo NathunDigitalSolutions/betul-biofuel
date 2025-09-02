@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import {
   FaPhone,
@@ -11,6 +11,25 @@ import {
 import img from "../../assets/contact.jpg";
 
 const ContactSection = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const subject = encodeURIComponent("Contact Form Submission");
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`
+    );
+    window.location.href = `mailto:reception@betulbiofuel.com?subject=${subject}&body=${body}`;
+  };
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -68,11 +87,15 @@ const ContactSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Contact Us
           </h2>
-          <form className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-5">
             <div>
               <label className="text-white block mb-2">Full Name</label>
               <input
                 type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
                 className="w-full p-3 border border-white bg-transparent text-white rounded-lg focus:ring-2 focus:ring-secondary"
                 placeholder="Enter your name"
               />
@@ -81,20 +104,29 @@ const ContactSection = () => {
               <label className="text-white block mb-2">Email</label>
               <input
                 type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
                 className="w-full p-3 border border-white bg-transparent text-white rounded-lg focus:ring-2 focus:ring-secondary"
                 placeholder="Enter your email"
               />
             </div>
             <div>
-              <div>
-                <label className="text-white block mb-2">Message</label>
-                <textarea
-                  className="w-full p-3 border border-white bg-transparent text-white rounded-lg focus:ring-2 focus:ring-secondary h-32"
-                  placeholder="Write your message"
-                ></textarea>
-              </div>
+              <label className="text-white block mb-2">Message</label>
+              <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                className="w-full p-3 border border-white bg-transparent text-white rounded-lg focus:ring-2 focus:ring-secondary h-32"
+                placeholder="Write your message"
+              />
             </div>
-            <button className="bg-secondary text-black px-6 py-3 rounded-lg hover:bg-opacity-90 transition">
+            <button
+              type="submit"
+              className="bg-secondary text-black px-6 py-3 rounded-lg hover:bg-opacity-90 transition"
+            >
               Submit
             </button>
           </form>
