@@ -235,9 +235,14 @@ const Footer = () => {
       <div className="border-t border-gray-400 mt-10 pt-6 text-center text-sm text-gray-200">
         <p>
           Powered by{" "}
-          <span className="text-white font-semibold">
+          <a
+            href="https://nathundigitalsolutions.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white font-semibold hover:underline"
+          >
             Nathun Digital Solutions
-          </span>
+          </a>
           .
         </p>
       </div>

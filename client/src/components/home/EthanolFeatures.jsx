@@ -42,10 +42,10 @@ const EthanolFeatures = () => {
               {iconMap[feature.title] || <FaLeaf />}
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-dark">
+              <h3 className="text-xl font-bold text-dark">
                 {feature.title}
               </h3>
-              <p className="text-sm text-gray-700 mt-1">
+              <p className="text-lg text-gray-700 mt-1">
                 {feature.description}
               </p>
             </div>

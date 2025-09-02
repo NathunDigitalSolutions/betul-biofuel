@@ -34,11 +34,11 @@ const EthanolSection = () => {
 
         {/* Section 2 */}
         <div className="bg-white rounded-3xl shadow-xl p-10 md:p-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
             {section2.title}
           </h2>
           <p className="text-gray-700 text-lg mb-6">{section2.description}</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
             {section2.points.map((point, index) => (
               <div
                 key={index}

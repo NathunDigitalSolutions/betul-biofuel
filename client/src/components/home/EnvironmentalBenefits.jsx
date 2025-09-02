@@ -21,10 +21,10 @@ const EnvironmentalBenefits = () => {
               <div className="absolute -left-4 top-5 w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center text-xl shadow-md">
                 <Icon />
               </div>
-              <h3 className="text-lg font-semibold text-dark mb-1">
+              <h3 className="text-lg font-bold text-dark mb-1">
                 {benefit.title}
               </h3>
-              <p className="text-sm text-gray-600">{benefit.description}</p>
+              <p className="text-lg text-gray-600">{benefit.description}</p>
             </div>
           );
         })}

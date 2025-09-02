@@ -6,7 +6,7 @@ const icons = [FaLeaf, FaCogs, FaRecycle, FaBolt];
 
 const AboutHighlights = () => {
     return (
-        <section className="py-16 px-4 md:px-20 bg-background">
+        <section className="py-24 px-4 md:px-20 bg-background">
             {/* About Us Section */}
             <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="md:w-1/2">
@@ -29,8 +29,8 @@ const AboutHighlights = () => {
             </div>
 
             {/* Highlights Section */}
-            <div className="mt-16">
-                <h3 className="text-2xl md:text-4xl font-bold text-primary mb-10 text-center">
+            <div className="mt-32">
+                <h3 className="text-2xl md:text-4xl font-bold text-primary mb-20 text-center">
                     What Sets Us Apart?
                 </h3>
                 <div className="grid gap-6 grid-cols-1 md:grid-cols-2">

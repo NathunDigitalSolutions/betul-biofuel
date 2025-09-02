@@ -14,7 +14,7 @@ const Home = () => {
       <ProductsBoxes />
       <AboutHighlights />
 
-      <div className="relative bg-white py-14 px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative bg-white py-24 px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
             Have questions or need assistance?

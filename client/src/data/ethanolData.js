@@ -6,7 +6,7 @@ export const ethanolData = {
   },
   section2: {
     title: "Our Expertise in Fuel Ethanol Production Plants",
-    description: `Advance Biofuel specializes in the design, engineering, and implementation of whole-fuel ethanol Production Plants. Our skilled group combines deep business expertise with the current era to provide custom-designed answers that meet your specific desires.`,
+    description: `Betul Biofuel is a leading expert in designing, engineering, and delivering complete ethanol production plants. Our experienced team blends strong industry knowledge with modern technology to create tailored solutions that perfectly match the unique requirements of our clients.`,
     points: [
       "High Efficiency: engineered for maximum output with little electricity consumption.",
       "Advanced Technology: We use progressive techniques to provide extraordinary ethanol.",

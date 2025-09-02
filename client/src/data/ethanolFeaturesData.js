@@ -23,10 +23,10 @@ export const ethanolFeaturesData = {
       description:
         "Whether you are a small-scale production or large commercial enterprise corporation, we offer scalable solutions that could develop with the increase of your enterprise.",
     },
-    {
-      title: "Capacity Range",
-      description: "Scalable from 30 KLPD to 500 KLPD",
-    },
+    // {
+    //   title: "Capacity Range",
+    //   description: "Scalable from 30 KLPD to 500 KLPD",
+    // },
     {
       title: "Waste Management Integration",
       description: "Efficient handling of by-products",
